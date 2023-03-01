@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <aside class="sidepanel">
+      <a href="https://github.com/dudopupo" class="sidepanel__link"
+        ><img src="icons/github.svg" alt="Гитхаб"
+      /></a>
+      <a href="https://vk.com/feed" class="sidepanel__link"
+        ><img src="icons/Vk.svg" alt="Вконтакте"
+      /></a>
+      <a href="https://t.me/dudopupo" class="sidepanel__link"
+        ><img src="icons/telegram.svg" alt="Телеграмм"
+      /></a>
+      <div class="sidepanel__divider"></div>
+      <div class="sidepanel__text"><span>Социальные сети</span></div>
+    </aside>
+    <section class="promo">
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span class="long"></span>
+        </label>
+        <div class="substrate"></div>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#about">ПРО МЕНЯ</a></li>
+          <!-- <li><a class="menu__item" href="#">МОЙ ОПЫТ</a></li> -->
+          <li><a class="menu__item" href="#skills">МОИ НАВЫКИ</a></li>
+          <li><a class="menu__item" href="#examples">МОИ РАБОТЫ</a></li>
+          <!-- <li><a class="menu__item" href="#">ПРАЙС-ЛИСТ</a></li>
+          <li><a class="menu__item" href="#">КОНТАКТЫ</a></li> -->
+        </ul>
+      </div>
+      <div class="container">
+        <div class="promo__name">Меня зовут Андрей Максименко</div>
+        <h1 class="title">
+          Я web-разработчик <br />
+          из города Санкт-Петербург
+        </h1>
+        <div class="promo__btns">
+          <a href="#examples" class="promo__link btn">Портфолио</a>
+          <a href="#about" class="promo__link transparent__btn">Про меня</a>
+        </div>
+      </div>
+    </section>
+    <a id="about"></a>
+    <div class="about">
+      <div class="container">
+        <div class="wrapper__about">
+          <div class="about__wrapperfoto">
+            <img src="#" alt="Мое фото" class="about__img" />
+          </div>
+          <div class="about__content">
+            <div class="about__content__text">Про меня</div>
+            <h2 class="sub__title">Меня зовут Андрей</h2>
+            <div class="line"></div>
+            <div class="about__scr">
+              <p>Мне 26 лет и я учусь в Elbrus-Bootcamp</p>
+              <br />
+              <p>
+                Я закончил магистратуру СПБПУ с красным дипломом по направлению
+                энергетическое машиностроение. Во время своего обучения я
+                преподавал в кружке робототехники 3D моделирования, также
+                являюсь эскпертом(судьей) в соревнованиях Worldskills Russia в
+                категории инженерный дизайн CAD (младшая возрастная группа)
+              </p>
+              <br />
+              <p>
+                На втором курсе магистратуры я устроился на работу в апарат
+                управления ООО "Газпром трансгаз Санкт-Петербург" Там в мои
+                обязанности входило еженедельное предоставление отчетов о
+                состоянии газотурбинных двигателей в 13 филиалах компании.
+                Выполняя эту работу, я научился грамотно разрешать конфликтные
+                ситуации.
+              </p>
+              <br />
+              <p>
+                Получив диплом, я пошел работать сменным инженером на
+                компрессорную станцию. В ходе работы я понял, что в критических
+                ситуациях не паникую и способен выполнять свою работу.
+              </p>
+              <br />
+              <p>
+                В мае 2021 года я открыл свою небольшую компанию, которая
+                занимается проверкой средств измерения.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a id="skills"></a>
+    <section class="skills">
+      <div class="container">
+        <div class="skills__text">Навыки</div>
+        <h2 class="sub__title skills__title">Что я использую в работе</h2>
+        <div class="line"></div>
+        <div class="skills_wrapper">
+          <div class="skills__items">
+            <img src="icons/html5.svg" alt="html5" class="skills__items__img" />
+            <div class="skills__items__title">HTML5</div>
+            <div class="skills__items___descr">
+              Именно он создает каркас вашего сайта или приложения, а пятая
+              версия позволит мне создавать более SEO-оптимизированную структуру
+              вашего продукта
+            </div>
+          </div>
+          <div class="skills__items">
+            <img src="icons/css3.svg" alt="CSS3" class="skills__items__img" />
+            <div class="skills__items__title">CSS3</div>
+            <div class="skills__items___descr">
+              Этот язык стилей позволяет мне создавать абсолютно любой внешний
+              вид вашего сайта или приложения. Все ограничивается только вашей
+              фантазией!
+            </div>
+          </div>
+          <div class="skills__items">
+            <img
+              src="icons/JS.svg"
+              alt="JavaScript"
+              class="skills__items__img"
+            />
+            <div class="skills__items__title">Java Script</div>
+            <div class="skills__items___descr">
+              Этот язык программирования позволяет оживить все что угодно:
+              слайдеры, окна, подсказки, вкладки, получение данных от сервера и
+              многое другое
+            </div>
+          </div>
+          <div class="skills__items">
+            <img
+              src="icons/Jquery.svg"
+              alt="jQuery"
+              class="skills__items__img litleHeigth"
+            />
+            <div class="skills__items__title">Jquery</div>
+            <div class="skills__items___descr">
+              Библиотека Jquery позволит ускорить разработку. Без необходимости
+              интегрировать в проект мы её не будем, но навык работы с ней
+              присутствует
+            </div>
+          </div>
+          <div class="skills__items">
+            <img src="icons/React.svg" alt="React" class="skills__items__img" />
+            <div class="skills__items__title">React</div>
+            <div class="skills__items___descr">
+              Эта библиотека позволяет создавать web-приложения. Мы можем
+              создать максимально интерактивный продукт именно под ваши цели
+            </div>
+          </div>
+          <div class="skills__items">
+            <img
+              src="icons/Node.js.svg"
+              alt="Node.js"
+              class="skills__items__img"
+            />
+            <div class="skills__items__title">Node.js</div>
+            <div class="skills__items___descr">
+              Эта платформа позволяет создавать бэкенд для вашего продукта -
+              “мозги”, которые будут выполнять действия, которые пользователь не
+              видит
+            </div>
+          </div>
+          <div class="skills__items">
+            <img
+              src="icons/typescript.svg"
+              alt="TypeScript"
+              class="skills__items__img"
+            />
+            <div class="skills__items__title">TypeScript</div>
+            <div class="skills__items___descr">
+              Язык программирования, представленный Microsoft в 2012 году и
+              позиционируемый как средство разработки веб-приложений,
+              расширяющее возможности JavaScript
+            </div>
+          </div>
+          <div class="skills__items">
+            <img src="icons/figma.svg" alt="figma" class="skills__items__img" />
+            <div class="skills__items__title">Figma</div>
+            <div class="skills__items___descr">
+              Онлайн-сервис для разработки интерфейсов и прототипирования с
+              возможностью организации совместной работы в режиме реального
+              времени.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a id="examples"></a>
+    <section class="examples">
+      <div class="examples__text">Портфолио</div>
+      <h2 class="sub__title">Мои работы</h2>
+      <div class="line"></div>
+      <div class="sub__title">Coming soon ...</div>
+    </section>
+  </body>
+</html>
